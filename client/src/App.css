@@ -13,8 +13,11 @@
   background-color: #202123;
 }
 
-.sidemenu {
-  
+.side-menu-button {
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: left;
 }
 
 .chatbox {
