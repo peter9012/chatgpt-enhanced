@@ -18,6 +18,16 @@
   border: 1px solid white;
   border-radius: 5px;
   text-align: left;
+  transition: ease 0.25s all;
+}
+
+.side-menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.side-menu-button span {
+  padding-left: 6px;
+  padding-right:12px;
 }
 
 .chatbox {
@@ -34,6 +44,15 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.chat-input-holder {
+
+}
+
+.chat-input-textarea {
+  background-color:#40414f;
+  width: 100%;
 }
 
 .App-header {
