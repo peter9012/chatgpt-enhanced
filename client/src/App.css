@@ -83,12 +83,12 @@
 }
 
 .chat-log {
-  padding: 24px;
+
   text-align: left;
 }
 
-.chat-message {
-
+.chat-message.chatgpt {
+  background-color: #444654;
 }
 
 .chat-message-center {
@@ -96,9 +96,10 @@
   display: flex;
   padding-left: 24px; 
   padding-right: 24px;
-  max-width: 480px;
+  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .avatar {
